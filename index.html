@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web site template desing using html css js</title>
+    <!--owl carousel styling-->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav__container">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Listing</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"> <i class="fa fa-plus"></i> Add Your Listing</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div class="header__search">
+            <div class="container">
+                <div class="header__search_container">
+                    <div class="header__search__headings">
+                        <div class="header__search__sub__heading">
+                            <p>OVER 36,500+ ACTIVE LISTINGS</p>
+                        </div>
+                        <div class="header__search__main__heading">
+                            <h2>Find Nearby Places & Things</h2>
+                        </div>
+                    </div>
+                    <div class="header__search__inputs">
+                        <div class="header__search__inputs__inner">
+                            <div class="single__input">
+                                <select name="" id="">
+                                    <option value="all Areas">All Areas</option>
+                                    <option value="all Areas">New Village</option>
+                                    <option value="all Areas">Old Town</option>
+                                    <option value="all Areas">Modern City</option>
+                                </select>
+                            </div>
+                            <div class="single__input">
+                                <input type="text" placeholder="Enter a new location">
+                            </div>
+                            <div class="single__input">
+                                <select name="" id="">
+                                    <option value="">Price Range</option>
+                                    <option value="">$100-$250</option>
+                                    <option value="">$250-$500</option>
+                                    <option value="">$500-$1000</option>
+                                    <option value="">$1000 or more</option>
+                                </select>
+                            </div>
+                            <div class="single__input search">
+                                <div class="input__group">
+                                    <i class="fa fa-search"></i> <input type="submit" value="Search Now">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__search__services">
+                        <div class="single__service">
+                            <a href="">
+                                <span><img src="./assets/images/search-icon-01.png" alt=""></span>
+                                Apartments
+                            </a>
+                        </div>
+                        <div class="single__service">
+                            <a href="">
+                                <span><img src="./assets/images/search-icon-02.png" alt=""></span>
+                                Food & Life
+                            </a>
+                        </div>
+                        <div class="single__service">
+                            <a href="">
+                                <span><img src="./assets/images/search-icon-03.png" alt=""></span>
+                                Cars
+                            </a>
+                        </div>
+                        <div class="single__service">
+                            <a href="">
+                                <span><img src="./assets/images/search-icon-04.png" alt=""></span>
+                                Shopping
+                            </a>
+                        </div>
+                        <div class="single__service">
+                            <a href="">
+                                <span><img src="./assets/images/search-icon-05.png" alt=""></span>
+                                Traveling
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="section__heading">
+            <h2>Popular Categories</h2>
+            <h6>CHECK THEM OUT</h6>
+        </div>
+        <div class="category__tab__section">
+            <div class="category__tab">
+                <div class="category__tab__buttons">
+                    <div class="single__button active" data-content-target="apartments">
+                        <div class="tab__icon">
+                            <img src="./assets/images/search-icon-01.png" alt="">
+                        </div>
+                        <h2>Apartments</h2>
+                    </div>
+
+                    <div class="single__button" data-content-target="food">
+                        <div class="tab__icon">
+                            <img src="./assets/images/search-icon-02.png" alt="">
+
+                        </div>
+                        <h2>Food & Life</h2>
+                    </div>
+                    <div class="single__button" data-content-target="cars">
+                        <div class="tab__icon">
+                            <img src="./assets/images/search-icon-03.png" alt="">
+
+                        </div>
+                        <h2>Cars</h2>
+                    </div>
+                    <div class="single__button" data-content-target="shopping">
+                        <div class="tab__icon">
+                            <img src="./assets/images/search-icon-04.png" alt="">
+
+                        </div>
+                        <h2>Shopping</h2>
+                    </div>
+                    <div class="single__button" data-content-target="traveling">
+                        <div class="tab__icon">
+
+                            <img src="./assets/images/search-icon-05.png" alt="">
+                        </div>
+                        <h2> Traveling</h2>
+                    </div>
+                </div>
+                <div class="category__tab__contents">
+                    <div class="category__tab__contents__inner active">
+                        <div class="single__content" data-content-type="apartments">
+                            <div class="content__left">
+                                <div class="content__left__inner">
+                                    <h2>One Of The Most Trending Stuffs Right Now!</h2>
+                                    <p class="description">
+                                        Plot Listing is a responsive Bootstrap 5 website template that included 4
+                                        different HTML pages. This template is provided by TemplateMo website. You can
+                                        apply this layout for your static or dynamic CMS websites.
+                                    </p>
+                                    <a class="btn tab__btn" href=""><i class="fa fa-eye"></i>Discover More</a>
+                                </div>
+
+                            </div>
+                            <div class="content__right">
+                                <img src="./assets/images/tabs-image-01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__tab__contents__inner">
+                        <div class="single__content" data-content-type="food">
+                            <div class="content__left">
+                                <div class="content__left__inner">
+                                    <h2>Food and Lifestyle category is here</h2>
+                                    <p class="description">
+                                        You can feel free to download, edit and apply this template for your website.
+                                        Please tell your friends about TemplateMo website.
+                                    </p>
+                                    <a class="btn tab__btn" href=""><i class="fa fa-eye"></i>Explore More</a>
+                                </div>
+
+                            </div>
+                            <div class="content__right">
+                                <img src="./assets/images/tabs-image-02.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__tab__contents__inner">
+                        <div class="single__content" data-content-type="cars">
+                            <div class="content__left">
+                                <div class="content__left__inner">
+                                    <h2>Best car rentals for your trips!</h2>
+                                    <p class="description">
+                                        Did you know? You can get the best free HTML templates on Too CSS blog. Visit
+                                        the blog pages and explore fresh and latest website templates.
+                                    </p>
+                                    <a class="btn tab__btn" href=""><i class="fa fa-eye"></i>More Listing</a>
+                                </div>
+
+                            </div>
+                            <div class="content__right">
+                                <img src="./assets/images/tabs-image-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__tab__contents__inner">
+                        <div class="single__content" data-content-type="shopping">
+                            <div class="content__left">
+                                <div class="content__left__inner">
+                                    <h2>Shopping List: Images from Unsplash</h2>
+                                    <p class="description">
+                                        Image credits go to Unsplash website that provides free stock photos for anyone.
+                                        Images used in this Plot Listing template are from Unsplash.
+                                    </p>
+                                    <a class="btn tab__btn" href=""><i class="fa fa-eye"></i>Discover More</a>
+                                </div>
+
+                            </div>
+                            <div class="content__right">
+                                <img src="./assets/images/tabs-image-04.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__tab__contents__inner">
+                        <div class="single__content" data-content-type="traveling">
+                            <div class="content__left">
+                                <div class="content__left__inner">
+                                    <h2>Information and Safety Tips for Traveling</h2>
+                                    <p class="description">
+                                        You are allowed to use this template for your commercial websites. You are NOT
+                                        allowed to redistribute this template ZIP file on any Free CSS collection
+                                        websites.
+                                    </p>
+                                    <a class="btn tab__btn" href=""><i class="fa fa-eye"></i>Read More</a>
+                                </div>
+
+                            </div>
+                            <div class="content__right">
+                                <img src="./assets/images/tabs-image-05.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section__heading recentListing">
+        <h2>Recent Listing</h2>
+        <h6>CHECK THEM OUT</h6>
+    </div>
+    <div class="container">
+        <div class="owl-carousel owl-theme carousel-item-container">
+            <div class="item">
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-01.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>1. First Apartment Unit</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-02.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>2. Another House of Gaming</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-03.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>3. Secret Place Hidden House</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-04.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>4. Sunshine Fourth Apartment</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-02.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>2. Another House of Gaming</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-03.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>3. Secret Place Hidden House</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-05.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>1. First Apartment Unit</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-02.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>2. Another House of Gaming</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="single__listing">
+                    <div class="image__section">
+                        <a href=""><img src="./assets/images/listing-03.jpg" alt=""></a>
+                    </div>
+                    <div class="content__section">
+                        <div class="content__heading">
+                            <div class="heading__left">
+                                <a href="">
+                                    <h4>3. Secret Place Hidden House</h4>
+                                </a>
+                                <h6>by: Sale Agent</h6>
+                            </div>
+                            <div class="heading__right">
+                                <ul class="rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <li>(18) Reviews</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <span class="price">
+                            <div class="icon">
+                                <img src="assets/images/listing-icon-01.png" alt="">
+                            </div> <span>$450 - $950 / month with taxes</span>
+                        </span>
+                        <span class="details">Details: <em>2760 sq ft</em></span>
+                        <ul class="info">
+                            <div>
+                                <li><img src="assets/images/listing-icon-02.png" alt=""> 4 Bedrooms</li>
+                                <li><img src="assets/images/listing-icon-03.png" alt=""> 4 Bathrooms</li>
+                            </div>
+
+                            <div class="main-white-button">
+                                <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="befor__footer__section">
+        <div class="container">
+            <div class="row">
+                <div class="col__4">
+                    <div class="before__footer__logo">
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam
+                            exercitationem natus mollitia aperiam
+                        </p>
+                    </div>
+                </div>
+                <div class="col__4">
+                    <h2>Helpful Links</h2>
+                    <div class="row">
+                        <div class="col__6">
+                            <ul>
+                                <li><a href="">Categories</a></li>
+                                <li><a href="">Reviews</a></li>
+                                <li><a href="">Listing</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col__6">
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Awards</a></li>
+                                <li><a href="">Useful Sites</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col__4">
+                    <h2>Contact Us</h2>
+                    <h6>27th Street of New Town, Digital Villa</h6>
+                    <div class="row">
+                        <div class="col__6">
+                            <ul>
+                                <li><a href="">010-020-0340</a></li>
+                            </ul>
+                        </div>
+                        <div class="col__6">
+                            <ul>
+                                <li><a href="">090-080-0760</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.</p>
+        <p>Design: TemplateMo</p>
+        <div class="scroll_to_top" onclick="scrollToTop()"><i class="fa fa-arrow-up"></i></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
